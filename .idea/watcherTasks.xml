@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTasksOptions">
-    <TaskOptions isEnabled="false">
+    <TaskOptions isEnabled="true">
       <option name="arguments" value="$FileName$ --use=autoprefixer --output $FilePath$" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -21,7 +21,7 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="false">
+    <TaskOptions isEnabled="true">
       <option name="arguments" value="-i $FileName$ -o $FileNameWithoutExtension$.min.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -41,8 +41,8 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="false">
-      <option name="arguments" value="$FileName$:$FileParentDir$\.css\$FileNameWithoutExtension$.css" />
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="$FileName$:$FileParentDir$\css\$FileNameWithoutExtension$.css" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
@@ -61,10 +61,5 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <enabled-global>
-      <option value="SCSS" />
-      <option value="autoprefixer" />
-      <option value="CSSO CSS Optimizer" />
-    </enabled-global>
   </component>
 </project>

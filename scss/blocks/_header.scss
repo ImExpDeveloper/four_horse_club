@@ -1,5 +1,13 @@
-.header_logo {
-  background-image: url(src/img/logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+.header_bg {
+
 }
+
+.header_logo {
+  background-image: url(../src/img/horse.png);
+  background-repeat: repeat repeat;
+  background-size: contain;
+  width: 245px;
+  height: 36px;
+}
+
+
